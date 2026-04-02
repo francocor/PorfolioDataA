@@ -205,7 +205,7 @@ La nueva sección **Data Analytics Projects** incluye:
 
 ## 🔗 Enlaces Importantes
 
-- **Portfolio Live:** https://portfolio-franco-cornejo-41c10alo3.vercel.app
+- **Portfolio Live:** https://portfolio-franco-cornejo-jomisnlfv.vercel.app
 - **GitHub Repo:** https://github.com/francocor/PorfolioDataA
 - **LinkedIn:** https://www.linkedin.com/in/franco-cornejo-3b3aaa209/
 - **Email:** Francocornejoc15@gmail.com
