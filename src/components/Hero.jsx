@@ -91,7 +91,7 @@ export default function Hero() {
             <ChevronRight className="w-4 h-4" />
           </a>
           <a
-            href="/CV_Franco_Cornejo_Data_Analyst.pdf"
+            href="/projects/nova-retail/downloads/Franco Cornejo-DataAnalyst-CV.pdf"
             download="CV_Franco_Cornejo_Data_Analyst.pdf"
             className="btn-ghost"
           >
