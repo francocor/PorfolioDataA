@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, Download, FileText, Package } from 'lucide-react'
+import { X, Download, FileText, Package, Database } from 'lucide-react'
 
 import imagenResumenEjecutivo from "../dashboards/Imagen1Porfolio.png"
 import imagenProductoCategorias from "../dashboards/Imagen2Porfolio.png"
@@ -279,7 +279,7 @@ export default function NovaRetailDetail({ project, onClose }) {
               <motion.div variants={itemVariants} className="space-y-4">
                 <h2 className="text-2xl font-bold text-text">Recursos y descargas</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -321,6 +321,30 @@ export default function NovaRetailDetail({ project, onClose }) {
                     <h4 className="font-semibold text-text mb-1">Power BI</h4>
                     <p className="text-xs text-text-secondary mb-4">
                       Archivo ZIP del proyecto completo en Power BI
+                    </p>
+                    <div className="flex items-center justify-center gap-2 text-sm text-accent">
+                      <Download className="w-4 h-4" />
+                      Descargar
+                    </div>
+                  </motion.button>
+
+                  <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={() =>
+                      handleDownload(
+                        'NovaRetail-BaseDeDatos.sql',
+                        '/projects/nova-retail/downloads/novaretail_portfolio_mysql.sql'
+                      )
+                    }
+                    className="card-base border-accent/20 hover:border-accent/50 hover:bg-accent/5 transition-all duration-200 p-6 text-center group cursor-pointer"
+                  >
+                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-accent/10 group-hover:bg-accent/20 transition-colors mb-4">
+                      <Database className="w-6 h-6 text-accent" />
+                    </div>
+                    <h4 className="font-semibold text-text mb-1">Base de Datos</h4>
+                    <p className="text-xs text-text-secondary mb-4">
+                      Script SQL completo de MySQL
                     </p>
                     <div className="flex items-center justify-center gap-2 text-sm text-accent">
                       <Download className="w-4 h-4" />
