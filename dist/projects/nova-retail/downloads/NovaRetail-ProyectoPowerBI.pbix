@@ -1,0 +1,18 @@
+Placeholder for Power BI Project File
+
+File: NovaRetail-ProyectoPowerBI.pbix
+
+This is a placeholder file. Replace it with the actual Power BI project file.
+
+Project: NovaRetail - Análisis de Negocio para E-commerce
+Stack: MySQL, SQL, Power BI
+
+Dashboard includes:
+- Resumen Ejecutivo (Executive Summary)
+- Producto y Categorías (Product & Categories)
+- Marketing y Performance (Marketing & Performance)
+
+Instructions for replacement:
+1. Replace this file with the actual .pbix file provided
+2. Ensure the file is in the correct location: /public/projects/nova-retail/downloads/
+3. The download link will automatically work with the actual file
